@@ -1,0 +1,71 @@
+/* import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css'; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/*======================
+    404 page
+=======================*/
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.page_404 {
+    padding: 40px 0;
+    background: #fff;
+    font-family: 'Arvo', serif;
+}
+
+.page_404 img {
+    width: 100%;
+}
+
+.four_zero_four_bg {
+
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.four_zero_four_bg h1 {
+    font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+    font-size: 80px;
+}
+
+.link_404 {
+    color: #fff !important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.contant_box_404 {
+    margin-top: -50px;
+}
+
+.cascading-right {
+    margin-right: -50px;
+}
+
+@media (max-width: 900px) {
+    .cascading-right {
+        margin-right: 0;
+    }
+}
+
+.page-wrap{
+     max-width: 1366px;
+     margin: auto;
+}
