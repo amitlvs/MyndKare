@@ -14,7 +14,6 @@ import Checkbox from "@mui/material/Checkbox";
 import FormControl from "@mui/material/FormControl";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import { FormGroup } from "@mui/material";
-import { showSchool } from "../../redux/schoolSlice";
 
 function CreateSchoolResult(props) {
   const { onClose, selectedValue, open } = props;
