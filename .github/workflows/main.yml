@@ -13,10 +13,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Set up Node.js
+    - name: Use Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: 14
+        node-version: 18.16.1
+        registry-url: https://registry.npmjs.org
 
     - name: Install dependencies
       run: npm install
@@ -25,14 +26,13 @@ jobs:
       run: npm run build
 
     - name: Deploy to master
+      if: success()
       run: |
-        if [ ${{ github.ref }} = 'refs/heads/development' ]; then
-          git config --global user.email "your-email@example.com"
-          git config --global user.name "Your Name"
-          git checkout master
-          git pull
-          cp -r build/* ./
-          git add .
-          git commit -m "Auto-deploy from development branch"
-          git push
-        fi
+        git config --global user.email "amit007.mail2@gmail.com"
+        git config --global user.name "amitlvs"
+        git checkout master
+        git pull
+        cp -r build/* ./
+        git add .
+        git commit -m "Auto-deploy from development branch"
+        git push
