@@ -1,0 +1,38 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - development
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build
+      run: npm run build
+
+    - name: Deploy to master
+      run: |
+        if [ ${{ github.ref }} = 'refs/heads/development' ]; then
+          git config --global user.email "your-email@example.com"
+          git config --global user.name "Your Name"
+          git checkout master
+          git pull
+          cp -r build/* ./
+          git add .
+          git commit -m "Auto-deploy from development branch"
+          git push
+        fi
