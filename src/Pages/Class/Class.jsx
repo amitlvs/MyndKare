@@ -57,7 +57,7 @@ function Class() {
         return (
           <Box>
             <Tooltip title="View details">
-              <IconButton onClick={() => {}}>
+              <IconButton onClick={() => { }}>
                 <Preview />
               </IconButton>
             </Tooltip>
