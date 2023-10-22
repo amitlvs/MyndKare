@@ -1,6 +1,6 @@
 {
+  "name": "MyndKare",
   "homepage": "https://amitlvs.github.io/MyndKare",
-  "name": "myndkreui",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
