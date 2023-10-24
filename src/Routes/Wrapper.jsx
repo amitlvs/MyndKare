@@ -6,7 +6,7 @@ import Layout from "../layouts";
 function Wrapper() {
     return (
         <>
-            <BrowserRouter>
+            <BrowserRouter basename="/MyndKare">
                 <Routes>
                     {
                         routes.map(({ path, Component }) => (
