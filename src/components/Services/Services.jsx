@@ -12,7 +12,7 @@ function Services() {
             <h1 className="text-center my-5">SERVICES</h1>
             <Grid container >
                 <Grid xs={12} sm={6} md={6} spacing={3}>
-                    <Card component={Stack} spacing={3} className='mx-2 mt-3'>
+                    <Card component={Stack} spacing={3} className='mx-2 mt-3 customCard'>
                         <Stack className='flex justify-center align-items-center mx-2 py-3'>
                             <Box
                                 component="img"
@@ -34,7 +34,7 @@ function Services() {
 
                 </Grid>
                 <Grid xs={12} sm={6} md={6} spacing={3}>
-                    <Card component={Stack} spacing={3} className='mx-2 mt-3'>
+                    <Card component={Stack} spacing={3} className='mx-2 mt-3 customCard'>
                         <Stack className='flex justify-center align-items-center mx-2 py-3'>
                             <Box
                                 component="img"
@@ -55,7 +55,7 @@ function Services() {
 
                 </Grid>
                 <Grid xs={12} sm={6} md={6} spacing={3}>
-                    <Card component={Stack} spacing={3} className='mx-2 mt-3'>
+                    <Card component={Stack} spacing={3} className='mx-2 mt-3 customCard'>
                         <Stack className='flex justify-center align-items-center mx-2 py-3'>
                             <Box
                                 component="img"
@@ -76,7 +76,7 @@ function Services() {
 
                 </Grid>
                 <Grid xs={12} sm={6} md={6} spacing={3}>
-                    <Card component={Stack} spacing={3} className='mx-2 mt-3'>
+                    <Card component={Stack} spacing={3} className='mx-2 mt-3 customCard'>
                         <Stack className='flex justify-center align-items-center mx-2 py-3'>
                             <Box
                                 component="img"

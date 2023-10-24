@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { NavLink } from "react-router-dom";
 import User from '../Pages/User/User';
+import DarkModeSwitch from './Switch/DarkModeSwitch';
 
 export function Header() {
     return (
@@ -71,6 +72,7 @@ export function Header() {
                                 </li>
                             </NavLink>
                         </ul>
+                        {/* <DarkModeSwitch /> */}
 
                     </div>
                 </div>
