@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyndKare/static/css/main.5f79c66b.css",
-    "main.js": "/MyndKare/static/js/main.69137283.js",
+    "main.css": "/MyndKare/static/css/main.6db6a07e.css",
+    "main.js": "/MyndKare/static/js/main.58611ae3.js",
     "static/js/787.6d3b9eae.chunk.js": "/MyndKare/static/js/787.6d3b9eae.chunk.js",
     "static/media/fa-solid-900.ttf": "/MyndKare/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/fa-brands-400.ttf": "/MyndKare/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
@@ -12,12 +12,12 @@
     "static/media/fa-v4compatibility.ttf": "/MyndKare/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
     "static/media/fa-v4compatibility.woff2": "/MyndKare/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/MyndKare/index.html",
-    "main.5f79c66b.css.map": "/MyndKare/static/css/main.5f79c66b.css.map",
-    "main.69137283.js.map": "/MyndKare/static/js/main.69137283.js.map",
+    "main.6db6a07e.css.map": "/MyndKare/static/css/main.6db6a07e.css.map",
+    "main.58611ae3.js.map": "/MyndKare/static/js/main.58611ae3.js.map",
     "787.6d3b9eae.chunk.js.map": "/MyndKare/static/js/787.6d3b9eae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f79c66b.css",
-    "static/js/main.69137283.js"
+    "static/css/main.6db6a07e.css",
+    "static/js/main.58611ae3.js"
   ]
 }
